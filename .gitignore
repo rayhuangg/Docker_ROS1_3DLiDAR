@@ -1,0 +1,13 @@
+# Ignore build and devel directories
+build/
+devel/
+
+# Ignore catkin workspace-specific files
+*.catkin_workspace
+
+# Ignore system configuration files
+*.DS_Store
+*.pyc
+
+
+agx_ros1_3dlidar.tar
