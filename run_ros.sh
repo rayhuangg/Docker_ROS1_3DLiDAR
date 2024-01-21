@@ -1,7 +1,7 @@
 #!/bin/bash
 
 CONTAINER_NAME="ros1"
-IMAGE_NAME="agx_ros1_3dlidar"
+IMAGE_NAME="agx_ros1_3dlidar:latest"
 
 # 檢查容器是否存在
 if docker ps -a -f "name=$CONTAINER_NAME" --format "{{.Names}}" | grep -q $CONTAINER_NAME; then
